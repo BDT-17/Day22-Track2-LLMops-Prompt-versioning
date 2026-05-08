@@ -302,6 +302,7 @@ Submit the following on the course portal / Google Form:
 
 1. **GitHub repo URL** — e.g. `https://github.com/yourname/day22-langsmith-lab`
 2. **LangSmith project URL** — e.g. `https://smith.langchain.com/o/<org-id>/projects/p/<project-id>`
+   Project URL for this submission: https://smith.langchain.com/o/f441748c-37c8-41b1-a83e-1e3658bb2211/projects/p/8f89618d-ca3e-4270-917d-1536245e99e8
 3. Confirm `evidence/` folder exists in the repo with all required files
 
 > ⚠️ **Never commit your `.env` file or paste API keys in code.** Violation = automatic −10 pts.
