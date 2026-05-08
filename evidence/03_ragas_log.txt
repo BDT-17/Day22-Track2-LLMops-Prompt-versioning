@@ -1,0 +1,253 @@
+ venv\Scripts\python.exe 03_ragas_evaluation.py
+D:\VIN\Ai_thucchien\Day22-Track2-LLMops-Prompt-versioning\03_ragas_evaluation.py:7: DeprecationWarning: Importing answer_relevancy from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import answer_relevancy
+  from ragas.metrics import (
+D:\VIN\Ai_thucchien\Day22-Track2-LLMops-Prompt-versioning\03_ragas_evaluation.py:7: DeprecationWarning: Importing context_precision from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_precision
+  from ragas.metrics import (
+D:\VIN\Ai_thucchien\Day22-Track2-LLMops-Prompt-versioning\03_ragas_evaluation.py:7: DeprecationWarning: Importing context_recall from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import context_recall
+  from ragas.metrics import (
+D:\VIN\Ai_thucchien\Day22-Track2-LLMops-Prompt-versioning\03_ragas_evaluation.py:7: DeprecationWarning: Importing faithfulness from 'ragas.metrics' is deprecated and will be removed in v1.0. Please use 'ragas.metrics.collections' instead. Example: from ragas.metrics.collections import faithfulness
+  from ragas.metrics import (
+============================================================
+  Step 3: RAGAS Evaluation
+============================================================
+
+Running 50 questions with prompt v1 ...
+  [01/50] What are the three main types of machine learning?
+  [02/50] What is overfitting in machine learning?
+  [03/50] Explain the bias-variance tradeoff.
+  [04/50] How does regularization prevent overfitting?
+  [05/50] What is cross-validation?
+  [06/50] What is backpropagation?
+  [07/50] What are Convolutional Neural Networks primarily used for?
+  [08/50] How do LSTM networks address the vanishing gradient problem?
+  [09/50] What activation functions are commonly used in neural networks?
+  [10/50] What is the role of pooling layers in CNNs?
+  [11/50] What is the transformer architecture?
+  [12/50] What are word embeddings?
+  [13/50] What is transfer learning in NLP?
+  [14/50] How does BERT handle language understanding?
+  [15/50] What is self-attention in transformers?
+  [16/50] What is GPT and how is it trained?
+  [17/50] What is instruction tuning?
+  [18/50] What is RLHF?
+  [19/50] What is chain-of-thought prompting?
+  [20/50] What is the context length of GPT-4?
+  [21/50] What is Retrieval-Augmented Generation?
+  [22/50] What are the main components of a RAG pipeline?
+  [23/50] What is dense retrieval?
+  [24/50] Why is chunking strategy important in RAG?
+  [25/50] What advanced RAG techniques exist beyond basic retrieval?
+  [26/50] What are vector databases used for?
+  [27/50] What is FAISS?
+  [28/50] How do text embeddings capture semantic meaning?
+  [29/50] What is HNSW?
+  [30/50] What is hybrid search in vector databases?
+  [31/50] What is LangChain?
+  [32/50] What is LangChain Expression Language (LCEL)?
+  [33/50] What is LangGraph?
+  [34/50] What memory types does LangChain support?
+  [35/50] What are LangChain retrievers?
+  [36/50] What is LangSmith?
+  [37/50] What information do LangSmith traces capture?
+  [38/50] What is the LangSmith Prompt Hub?
+  [39/50] How does LangSmith help monitor production LLM applications?
+  [40/50] What are LangSmith datasets used for?
+  [41/50] What is RAGAS?
+  [42/50] How does RAGAS compute faithfulness?
+  [43/50] What is answer relevancy in RAGAS?
+  [44/50] What is context recall in RAGAS?
+  [45/50] What inputs does RAGAS evaluation require?
+  [46/50] What is Guardrails AI?
+  [47/50] What is PII and why is it important to detect in LLM responses?
+  [48/50] What does structured output validation ensure?
+  [49/50] What is Constitutional AI?
+  [50/50] What are common AI safety concerns with LLMs?
+
+Running 50 questions with prompt v2 ...
+  [01/50] What are the three main types of machine learning?
+  [02/50] What is overfitting in machine learning?
+  [03/50] Explain the bias-variance tradeoff.
+  [04/50] How does regularization prevent overfitting?
+  [05/50] What is cross-validation?
+  [06/50] What is backpropagation?
+  [07/50] What are Convolutional Neural Networks primarily used for?
+  [08/50] How do LSTM networks address the vanishing gradient problem?
+  [09/50] What activation functions are commonly used in neural networks?
+  [10/50] What is the role of pooling layers in CNNs?
+  [11/50] What is the transformer architecture?
+  [12/50] What are word embeddings?
+  [13/50] What is transfer learning in NLP?
+  [14/50] How does BERT handle language understanding?
+  [15/50] What is self-attention in transformers?
+  [16/50] What is GPT and how is it trained?
+  [17/50] What is instruction tuning?
+  [18/50] What is RLHF?
+  [19/50] What is chain-of-thought prompting?
+  [20/50] What is the context length of GPT-4?
+  [21/50] What is Retrieval-Augmented Generation?
+  [22/50] What are the main components of a RAG pipeline?
+  [23/50] What is dense retrieval?
+  [24/50] Why is chunking strategy important in RAG?
+  [25/50] What advanced RAG techniques exist beyond basic retrieval?
+  [26/50] What are vector databases used for?
+  [27/50] What is FAISS?
+  [28/50] How do text embeddings capture semantic meaning?
+  [29/50] What is HNSW?
+  [30/50] What is hybrid search in vector databases?
+  [31/50] What is LangChain?
+  [32/50] What is LangChain Expression Language (LCEL)?
+  [33/50] What is LangGraph?
+  [34/50] What memory types does LangChain support?
+  [35/50] What are LangChain retrievers?
+  [36/50] What is LangSmith?
+  [37/50] What information do LangSmith traces capture?
+  [38/50] What is the LangSmith Prompt Hub?
+  [39/50] How does LangSmith help monitor production LLM applications?
+  [40/50] What are LangSmith datasets used for?
+  [41/50] What is RAGAS?
+  [42/50] How does RAGAS compute faithfulness?
+  [43/50] What is answer relevancy in RAGAS?
+  [44/50] What is context recall in RAGAS?
+  [45/50] What inputs does RAGAS evaluation require?
+  [46/50] What is Guardrails AI?
+  [47/50] What is PII and why is it important to detect in LLM responses?
+  [48/50] What does structured output validation ensure?
+  [49/50] What is Constitutional AI?
+  [50/50] What are common AI safety concerns with LLMs?
+
+Running RAGAS evaluation for prompt v1 ...
+Evaluating:   0%|                                                                                                     | 0/200 [00:00<?, ?it/s]Exception raised in Job[1]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080447105935062868268d9d6N6L3QajP)', 'type': 'new_api_error'}})
+Exception raised in Job[5]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080447168939555468268d9d6fwJSz5C2)', 'type': 'new_api_error'}})
+Evaluating:   0%|▍                                                                                          | 1/200 [00:18<1:01:45, 18.62s/it]Exception raised in Job[9]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080447281742207258268d9d6dUzTmCnr)', 'type': 'new_api_error'}})
+Evaluating:   2%|█▊                                                                                           | 4/200 [00:27<19:02,  5.83s/it]Exception raised in Job[13]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508044731282958958268d9d6LiVBmjOf)', 'type': 'new_api_error'}})
+Evaluating:   4%|████▏                                                                                        | 9/200 [00:34<08:48,  2.77s/it]Exception raised in Job[17]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080447447777668678268d9d6idpfdPaw)', 'type': 'new_api_error'}})
+Evaluating:   5%|████▌                                                                                       | 10/200 [00:46<14:20,  4.53s/it]Exception raised in Job[21]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080447595339532818268d9d6iv5yTKp0)', 'type': 'new_api_error'}})
+Evaluating:   8%|███████▊                                                                                    | 17/200 [01:01<08:15,  2.71s/it]Exception raised in Job[25]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080448123882145838268d9d6e18fZyi0)', 'type': 'new_api_error'}})
+Evaluating:   9%|████████▎                                                                                   | 18/200 [01:12<12:04,  3.98s/it]Exception raised in Job[29]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080448262868346338268d9d6Iq7aLxRi)', 'type': 'new_api_error'}})
+Evaluating:  11%|██████████                                                                                  | 22/200 [01:25<10:40,  3.60s/it]Exception raised in Job[33]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080448391995354548268d9d6afB10rQn)', 'type': 'new_api_error'}})
+Evaluating:  14%|████████████▍                                                                               | 27/200 [01:39<09:26,  3.27s/it]Exception raised in Job[37]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080448511743234998268d9d6dPlIXXve)', 'type': 'new_api_error'}})
+Evaluating:  16%|██████████████▎                                                                             | 31/200 [01:50<08:36,  3.06s/it]Exception raised in Job[41]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508044854985010968268d9d6kK4NCy3m)', 'type': 'new_api_error'}})
+Evaluating:  18%|████████████████                                                                            | 35/200 [01:56<06:58,  2.54s/it]Exception raised in Job[45]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080449016089662738268d9d6XAJ7dFu0)', 'type': 'new_api_error'}})
+Evaluating:  20%|██████████████████▍                                                                         | 40/200 [02:16<08:13,  3.08s/it]Exception raised in Job[49]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080449246008767508268d9d6LADANhPW)', 'type': 'new_api_error'}})
+Evaluating:  22%|███████████████████▊                                                                        | 43/200 [02:26<08:14,  3.15s/it]Exception raised in Job[53]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080449428963787148268d9d6vSr7zoZ3)', 'type': 'new_api_error'}})
+Evaluating:  23%|█████████████████████▏                                                                      | 46/200 [02:43<10:04,  3.92s/it]Exception raised in Job[57]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080449473229124138268d9d6fOU2uF6H)', 'type': 'new_api_error'}})
+Evaluating:  28%|█████████████████████████▊                                                                  | 56/200 [03:07<07:31,  3.13s/it]Exception raised in Job[65]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045011419800938268d9d62WsWTcPY)', 'type': 'new_api_error'}})
+Evaluating:  30%|███████████████████████████▏                                                                | 59/200 [03:09<05:45,  2.45s/it]Exception raised in Job[61]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080450139477371238268d9d6hqhhYamg)', 'type': 'new_api_error'}})
+Evaluating:  30%|███████████████████████████▌                                                                | 60/200 [03:12<05:51,  2.51s/it]Exception raised in Job[69]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080450194732463118268d9d6Gv1XH8Ta)', 'type': 'new_api_error'}})
+Evaluating:  34%|██████████████████████████████▊                                                             | 67/200 [03:37<07:23,  3.33s/it]Exception raised in Job[73]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080450425461474418268d9d6WxuMaNpX)', 'type': 'new_api_error'}})
+Evaluating:  34%|███████████████████████████████▎                                                            | 68/200 [03:41<07:40,  3.49s/it]Exception raised in Job[77]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080450496428601138268d9d6vIok44KF)', 'type': 'new_api_error'}})
+Exception raised in Job[81]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080450557251012538268d9d62NKiLhLm)', 'type': 'new_api_error'}})
+Evaluating:  38%|██████████████████████████████████▌                                                         | 75/200 [04:04<06:45,  3.24s/it]Exception raised in Job[85]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080451099086942998268d9d63paSw2XA)', 'type': 'new_api_error'}})
+Evaluating:  40%|████████████████████████████████████▎                                                       | 79/200 [04:22<07:29,  3.72s/it]Exception raised in Job[89]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080451335939120308268d9d6372FWf5T)', 'type': 'new_api_error'}})
+Evaluating:  42%|██████████████████████████████████████▏                                                     | 83/200 [04:35<06:53,  3.54s/it]Exception raised in Job[93]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080451479236744278268d9d6CDrsUZ2q)', 'type': 'new_api_error'}})
+Evaluating:  44%|████████████████████████████████████████                                                    | 87/200 [04:48<06:27,  3.43s/it]Exception raised in Job[97]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080451519484392768268d9d6YF6Up3ft)', 'type': 'new_api_error'}})
+Exception raised in Job[101]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045203592632688268d9d6w5qYG61b)', 'type': 'new_api_error'}})
+Evaluating:  48%|████████████████████████████████████████████▌                                               | 97/200 [05:10<04:32,  2.64s/it]Exception raised in Job[109]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080452142275974298268d9d6cLXnjwtP)', 'type': 'new_api_error'}})
+Evaluating:  50%|█████████████████████████████████████████████▌                                             | 100/200 [05:22<05:00,  3.01s/it]Exception raised in Job[105]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080452338417398538268d9d6eEVwzkx7)', 'type': 'new_api_error'}})
+Evaluating:  52%|███████████████████████████████████████████████▊                                           | 105/200 [05:32<04:10,  2.64s/it]Exception raised in Job[113]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080452383150232418268d9d6YYQmceUv)', 'type': 'new_api_error'}})
+Evaluating:  54%|█████████████████████████████████████████████████▏                                         | 108/200 [05:43<04:25,  2.89s/it]Exception raised in Job[117]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080452527741345018268d9d6B0mpJHsJ)', 'type': 'new_api_error'}})
+Evaluating:  56%|██████████████████████████████████████████████████▉                                        | 112/200 [05:51<03:48,  2.60s/it]Exception raised in Job[121]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080453046163156638268d9d6NzJqcsNW)', 'type': 'new_api_error'}})
+Evaluating:  60%|██████████████████████████████████████████████████████▏                                    | 119/200 [06:13<03:46,  2.80s/it]Exception raised in Job[125]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080453207936270378268d9d6giV3k8aW)', 'type': 'new_api_error'}})
+Exception raised in Job[129]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080453279585173628268d9d6azo7vM4K)', 'type': 'new_api_error'}})
+Evaluating:  63%|█████████████████████████████████████████████████████████▎                                 | 126/200 [06:33<03:09,  2.55s/it]Exception raised in Job[133]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045338964122868268d9d6Z5SdIlXX)', 'type': 'new_api_error'}})
+Evaluating:  65%|███████████████████████████████████████████████████████████▏                               | 130/200 [06:41<02:22,  2.04s/it]Exception raised in Job[137]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080453488088779698268d9d6sPcVz8ma)', 'type': 'new_api_error'}})
+Evaluating:  66%|███████████████████████████████████████████████████████████▌                               | 131/200 [06:57<05:01,  4.36s/it]Exception raised in Job[141]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080454032921813848268d9d6AV6nSyGc)', 'type': 'new_api_error'}})
+Evaluating:  68%|█████████████████████████████████████████████████████████████▉                             | 136/200 [07:03<02:51,  2.67s/it]Exception raised in Job[145]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045415633160298268d9d6P5Ky9DfY)', 'type': 'new_api_error'}})
+Evaluating:  71%|████████████████████████████████████████████████████████████████▌                          | 142/200 [07:19<02:25,  2.51s/it]Exception raised in Job[149]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080454301367800538268d9d6r5mEMHfA)', 'type': 'new_api_error'}})
+Evaluating:  72%|█████████████████████████████████████████████████████████████████                          | 143/200 [07:29<03:15,  3.44s/it]Exception raised in Job[153]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080454385131262508268d9d6peweVMlt)', 'type': 'new_api_error'}})
+Evaluating:  73%|██████████████████████████████████████████████████████████████████▍                        | 146/200 [07:45<03:44,  4.15s/it]Exception raised in Job[157]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045453654285348268d9d6bk2VpROu)', 'type': 'new_api_error'}})
+Evaluating:  76%|█████████████████████████████████████████████████████████████████████▌                     | 153/200 [07:57<02:14,  2.85s/it]Exception raised in Job[165]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080455091799363588268d9d6McBacGJq)', 'type': 'new_api_error'}})
+Exception raised in Job[161]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080455135090005828268d9d6F3nsljyc)', 'type': 'new_api_error'}})
+Evaluating:  81%|█████████████████████████████████████████████████████████████████████████▋                 | 162/200 [08:25<01:38,  2.58s/it]Exception raised in Job[169]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080455401066483928268d9d6tUDpHeEF)', 'type': 'new_api_error'}})
+Exception raised in Job[173]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080455429145222588268d9d6h2ZfiJxW)', 'type': 'new_api_error'}})
+Evaluating:  82%|██████████████████████████████████████████████████████████████████████████▏                | 163/200 [08:41<02:27,  3.99s/it]Exception raised in Job[177]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080455526804369738268d9d6L1PgB5cv)', 'type': 'new_api_error'}})
+Evaluating:  86%|██████████████████████████████████████████████████████████████████████████████▋            | 173/200 [09:01<01:13,  2.72s/it]Exception raised in Job[181]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080456094990616088268d9d6B4HALLv8)', 'type': 'new_api_error'}})
+Exception raised in Job[185]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080456151351748788268d9d6CkZgni9Z)', 'type': 'new_api_error'}})
+Evaluating:  91%|██████████████████████████████████████████████████████████████████████████████████▊        | 182/200 [09:21<00:39,  2.20s/it]Exception raised in Job[189]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045628396845068268d9d6XXV4mRqp)', 'type': 'new_api_error'}})
+Evaluating:  92%|███████████████████████████████████████████████████████████████████████████████████▋       | 184/200 [09:31<00:42,  2.64s/it]Exception raised in Job[193]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080456378889994308268d9d6icuoujAN)', 'type': 'new_api_error'}})
+Evaluating:  92%|████████████████████████████████████████████████████████████████████████████████████▏      | 185/200 [09:46<01:09,  4.60s/it]Exception raised in Job[197]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080456551472174678268d9d6nCEmPic9)', 'type': 'new_api_error'}})
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 200/200 [10:11<00:00,  3.06s/it]
+  faithfulness        : 0.8937 target-met
+  answer_relevancy    : nan
+  context_recall      : 0.6400
+  context_precision   : 0.6317
+
+Running RAGAS evaluation for prompt v2 ...
+Evaluating:   0%|▍                                                                                            | 1/200 [00:04<16:05,  4.85s/it]Exception raised in Job[1]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080457265754584118268d9d6aSWYzsqK)', 'type': 'new_api_error'}})
+Exception raised in Job[5]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080457319827572038268d9d6RB8AkkyQ)', 'type': 'new_api_error'}})
+Evaluating:   1%|▉                                                                                            | 2/200 [00:15<28:12,  8.55s/it]Exception raised in Job[13]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080457398442288778268d9d62gJGfUtI)', 'type': 'new_api_error'}})
+Exception raised in Job[9]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080457443291236498268d9d67DSCS57h)', 'type': 'new_api_error'}})
+Evaluating:   2%|██▎                                                                                          | 5/200 [00:31<19:37,  6.04s/it]Exception raised in Job[17]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080457556807194208268d9d6GTRQHODX)', 'type': 'new_api_error'}})
+Evaluating:   4%|████▏                                                                                        | 9/200 [00:45<14:34,  4.58s/it]Exception raised in Job[21]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080458107354145798268d9d6pajlz73g)', 'type': 'new_api_error'}})
+Evaluating:   7%|██████▍                                                                                     | 14/200 [01:00<11:47,  3.80s/it]Exception raised in Job[25]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080458206063729708268d9d6Si0M8xWb)', 'type': 'new_api_error'}})
+Evaluating:  10%|█████████▋                                                                                  | 21/200 [01:22<10:35,  3.55s/it]Exception raised in Job[29]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080458495093399468268d9d6svUOAqQk)', 'type': 'new_api_error'}})
+Evaluating:  12%|███████████▌                                                                                | 25/200 [01:33<09:35,  3.29s/it]Exception raised in Job[33]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080458543351498398268d9d6BHB8MR2H)', 'type': 'new_api_error'}})
+Evaluating:  16%|██████████████▋                                                                             | 32/200 [01:44<06:33,  2.34s/it]Exception raised in Job[37]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080459074163280918268d9d6czbg9VIi)', 'type': 'new_api_error'}})
+Evaluating:  18%|████████████████                                                                            | 35/200 [01:55<07:08,  2.60s/it]Exception raised in Job[41]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080459196678552178268d9d6ET6zoQVh)', 'type': 'new_api_error'}})
+Evaluating:  18%|████████████████▌                                                                           | 36/200 [02:05<10:09,  3.72s/it]Exception raised in Job[45]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080459321379860878268d9d6z9J4EveG)', 'type': 'new_api_error'}})
+Evaluating:  20%|█████████████████▉                                                                          | 39/200 [02:20<11:13,  4.18s/it]Exception raised in Job[53]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080459423696956588268d9d6I49EDOsT)', 'type': 'new_api_error'}})
+Evaluating:  21%|███████████████████▎                                                                        | 42/200 [02:26<08:53,  3.37s/it]Exception raised in Job[49]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508045945755086538268d9d6irFocSpy)', 'type': 'new_api_error'}})
+Evaluating:  24%|██████████████████████                                                                      | 48/200 [02:49<09:49,  3.88s/it]Exception raised in Job[57]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080500101289842768268d9d6ktI02BXx)', 'type': 'new_api_error'}})
+Evaluating:  28%|█████████████████████████▊                                                                  | 56/200 [03:02<05:36,  2.34s/it]Exception raised in Job[61]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080500213039913878268d9d6tYXl7UHo)', 'type': 'new_api_error'}})
+Evaluating:  28%|██████████████████████████▏                                                                 | 57/200 [03:14<08:22,  3.51s/it]Exception raised in Job[65]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080500346735381728268d9d6UI8FZlju)', 'type': 'new_api_error'}})
+Evaluating:  30%|███████████████████████████▌                                                                | 60/200 [03:20<07:04,  3.03s/it]Exception raised in Job[69]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080500444693294428268d9d6O5Jm5Eka)', 'type': 'new_api_error'}})
+Evaluating:  32%|█████████████████████████████▉                                                              | 65/200 [03:41<08:31,  3.79s/it]Exception raised in Job[73]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501031247360528268d9d6sSPWX4hb)', 'type': 'new_api_error'}})
+Exception raised in Job[77]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501058779069218268d9d687OALW9H)', 'type': 'new_api_error'}})
+Evaluating:  37%|██████████████████████████████████                                                          | 74/200 [04:05<05:47,  2.75s/it]Exception raised in Job[81]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501309622907988268d9d65iu4Rar5)', 'type': 'new_api_error'}})
+Evaluating:  38%|██████████████████████████████████▉                                                         | 76/200 [04:14<06:33,  3.17s/it]Exception raised in Job[85]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501414807063818268d9d6kZTHXFJS)', 'type': 'new_api_error'}})
+Evaluating:  40%|█████████████████████████████████████▎                                                      | 81/200 [04:27<05:41,  2.87s/it]Exception raised in Job[89]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501505766343348268d9d6T5fsXUZo)', 'type': 'new_api_error'}})
+Exception raised in Job[93]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080501585444751118268d9d6FTUr7XER)', 'type': 'new_api_error'}})
+Evaluating:  45%|█████████████████████████████████████████▍                                                  | 90/200 [04:55<05:36,  3.06s/it]Exception raised in Job[101]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080502177419391218268d9d6yfiHmOHJ)', 'type': 'new_api_error'}})
+Exception raised in Job[97]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080502205833612978268d9d6IgQGYKpM)', 'type': 'new_api_error'}})
+Evaluating:  50%|█████████████████████████████████████████████▌                                              | 99/200 [05:25<05:55,  3.52s/it]Exception raised in Job[105]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508050250162634958268d9d6cjDn0THt)', 'type': 'new_api_error'}})
+Evaluating:  51%|██████████████████████████████████████████████▍                                            | 102/200 [05:36<05:56,  3.64s/it]Exception raised in Job[109]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 2026050805025977523348268d9d6SUTVyzbk)', 'type': 'new_api_error'}})
+Evaluating:  53%|████████████████████████████████████████████████▏                                          | 106/200 [05:44<04:28,  2.86s/it]Exception raised in Job[113]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080503032429269278268d9d6tRY4iFdO)', 'type': 'new_api_error'}})
+Evaluating:  56%|███████████████████████████████████████████████████▍                                       | 113/200 [06:03<03:46,  2.60s/it]Exception raised in Job[121]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080503228530703918268d9d6aEZrJ1lk)', 'type': 'new_api_error'}})
+Exception raised in Job[117]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080503306970386068268d9d6JM0DRmVs)', 'type': 'new_api_error'}})
+Evaluating:  60%|███████████████████████████████████████████████████████                                    | 121/200 [06:28<03:23,  2.58s/it]Exception raised in Job[125]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080503476854501038268d9d6y48hV3g3)', 'type': 'new_api_error'}})
+Evaluating:  61%|███████████████████████████████████████████████████████▌                                   | 122/200 [06:31<03:22,  2.60s/it]Exception raised in Job[129]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080503567009211618268d9d6lrLYlwTh)', 'type': 'new_api_error'}})
+Evaluating:  63%|█████████████████████████████████████████████████████████▎                                 | 126/200 [06:43<03:06,  2.52s/it]Exception raised in Job[133]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080504073371136108268d9d6NwuToWTK)', 'type': 'new_api_error'}})
+Evaluating:  66%|███████████████████████████████████████████████████████████▌                               | 131/200 [06:59<02:48,  2.44s/it]Exception raised in Job[137]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080504183593638358268d9d6JQuJYz4h)', 'type': 'new_api_error'}})
+Evaluating:  66%|████████████████████████████████████████████████████████████▌                              | 133/200 [07:08<03:36,  3.23s/it]Exception raised in Job[141]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 20260508050436409969928268d9d6JGpIwD9F)', 'type': 'new_api_error'}})
+Evaluating:  67%|████████████████████████████████████████████████████████████▉                              | 134/200 [07:20<05:18,  4.82s/it]Exception raised in Job[145]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080504432220632578268d9d6qqqsRkj6)', 'type': 'new_api_error'}})
+Evaluating:  72%|█████████████████████████████████████████████████████████████████▉                         | 145/200 [07:40<02:17,  2.49s/it]Exception raised in Job[149]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080504594598677928268d9d6tW7b63oT)', 'type': 'new_api_error'}})
+Exception raised in Job[153]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080505021335009308268d9d6u6DxPBda)', 'type': 'new_api_error'}})
+Evaluating:  75%|████████████████████████████████████████████████████████████████████▎                      | 150/200 [07:55<02:07,  2.56s/it]Exception raised in Job[157]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080505167473340248268d9d67QYk6QdG)', 'type': 'new_api_error'}})
+Evaluating:  76%|█████████████████████████████████████████████████████████████████████▏                     | 152/200 [08:04<02:23,  3.00s/it]Exception raised in Job[161]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080505311629419888268d9d6GItjF9te)', 'type': 'new_api_error'}})
+Evaluating:  79%|███████████████████████████████████████████████████████████████████████▉                   | 158/200 [08:16<01:33,  2.24s/it]Exception raised in Job[165]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080505449798393638268d9d6bVt5fz8s)', 'type': 'new_api_error'}})
+Evaluating:  82%|██████████████████████████████████████████████████████████████████████████▌                | 164/200 [08:34<01:27,  2.43s/it]Exception raised in Job[169]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080505563231106618268d9d66S6Fo3Cn)', 'type': 'new_api_error'}})
+Evaluating:  82%|███████████████████████████████████████████████████████████████████████████                | 165/200 [08:41<01:50,  3.15s/it]Exception raised in Job[173]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080506045162340398268d9d69ZY9RHUr)', 'type': 'new_api_error'}})
+Evaluating:  86%|██████████████████████████████████████████████████████████████████████████████▎            | 172/200 [08:53<00:57,  2.07s/it]Exception raised in Job[177]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080506156846205988268d9d6YUHx8Itk)', 'type': 'new_api_error'}})
+Evaluating:  87%|███████████████████████████████████████████████████████████████████████████████▏           | 174/200 [08:59<00:59,  2.27s/it]Exception raised in Job[181]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080506239245519588268d9d6fCZ9hCqt)', 'type': 'new_api_error'}})
+Evaluating:  89%|████████████████████████████████████████████████████████████████████████████████▉          | 178/200 [09:18<01:12,  3.29s/it]Exception raised in Job[189]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080506401254497028268d9d6E676W3UN)', 'type': 'new_api_error'}})
+Evaluating:  90%|█████████████████████████████████████████████████████████████████████████████████▉         | 180/200 [09:31<01:23,  4.18s/it]Exception raised in Job[185]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080506508296011848268d9d6XPAoqi5z)', 'type': 'new_api_error'}})
+Evaluating:  93%|████████████████████████████████████████████████████████████████████████████████████▋      | 186/200 [09:39<00:35,  2.56s/it]Exception raised in Job[193]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080507074901696028268d9d6Ct0nOo97)', 'type': 'new_api_error'}})
+Exception raised in Job[197]: InternalServerError(Error code: 503 - {'error': {'code': 'model_not_found', 'message': 'No available channel for model text-embedding-3-small under group default (distributor) (request id: 202605080507102606523938268d9d6qnTH9FGG)', 'type': 'new_api_error'}})
+Evaluating: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 200/200 [10:12<00:00,  3.06s/it]
+  faithfulness        : 0.8405 target-met
+  answer_relevancy    : nan
+  context_recall      : 0.6700
+  context_precision   : 0.6417
+
+Comparison
+  faithfulness        : V1=0.8937  V2=0.8405  winner=V1
+  answer_relevancy    : V1=nan  V2=nan  winner=V2
+  context_recall      : V1=0.6400  V2=0.6700  winner=V2
+  context_precision   : V1=0.6317  V2=0.6417  winner=V2
+Faithfulness target met: True (best=0.8937)
+
+{
+  "prompt_v1_scores": {
+    "faithfulness": 0.8936666666666666,
+    "answer_relevancy": NaN,
+    "context_recall": 0.64,
+    "context_precision": 0.6316666666079166
+  },
+  "prompt_v2_scores": {
+    "faithfulness": 0.8405238095238096,
+    "answer_relevancy": NaN,
+    "context_recall": 0.67,
+    "context_precision": 0.64166666660825
+  },
+  "target_met": true
+}

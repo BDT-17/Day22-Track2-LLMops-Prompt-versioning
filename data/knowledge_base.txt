@@ -1,0 +1,45 @@
+Machine learning is a branch of artificial intelligence focused on learning patterns from data. The three main types are supervised learning, unsupervised learning, and reinforcement learning. Supervised learning trains on labeled examples, unsupervised learning looks for patterns in unlabeled data, and reinforcement learning optimizes actions through rewards and penalties.
+
+Overfitting happens when a model memorizes the training data too closely, including noise, and then performs poorly on unseen data. The bias-variance tradeoff describes the balance between overly simple models with high bias and overly flexible models with high variance. Effective machine learning aims to minimize total error by balancing both forces.
+
+Regularization helps prevent overfitting by penalizing overly complex models. L1 regularization encourages sparse weights, while L2 regularization discourages large parameter values. Cross-validation improves evaluation by splitting the dataset into multiple folds and rotating which fold is used for validation.
+
+Backpropagation is the standard algorithm for training neural networks. It computes gradients of the loss with respect to each weight by applying the chain rule from the output layer backward through earlier layers. Gradient-based optimizers then update parameters to reduce loss.
+
+Convolutional Neural Networks, or CNNs, are especially effective on images and other grid-like data. Their convolution filters learn local spatial features, while pooling layers reduce spatial dimensions, lower computational cost, and preserve important patterns. CNNs are widely used for classification, detection, and segmentation tasks in computer vision.
+
+Recurrent neural networks process sequences one step at a time, but standard RNNs can suffer from vanishing gradients on long sequences. LSTM networks reduce that problem by using gates and a memory cell that help preserve useful information over time. Activation functions commonly used in neural networks include ReLU, sigmoid, tanh, and in some transformer models, GELU.
+
+Transformer models changed NLP by replacing recurrence with self-attention. Self-attention lets each token weigh the importance of every other token in the sequence, which helps models capture long-range dependencies. The transformer architecture also uses feed-forward layers, residual connections, and positional information while processing tokens in parallel.
+
+Word embeddings represent tokens as dense numeric vectors where semantically related words are located near one another in vector space. Text embeddings extend this idea to sentences, passages, or documents. Because embeddings encode meaning into geometry, semantically similar texts can be retrieved by similarity search.
+
+Transfer learning in NLP usually means pretraining a model on massive text corpora and fine-tuning it for downstream tasks. BERT uses bidirectional transformer training and masked language modeling to build contextual language understanding. GPT models are autoregressive transformers trained to predict the next token from prior tokens.
+
+Instruction tuning fine-tunes large language models on prompt-and-response pairs so they follow instructions better. RLHF, or Reinforcement Learning from Human Feedback, aligns model behavior using preference data collected from humans. Chain-of-thought prompting encourages models to reason through intermediate steps, which often improves complex problem solving.
+
+GPT-4 family models have offered long context windows in some variants, with 128K tokens often cited for extended-context versions. Context length matters because it determines how much text the model can consider at once. In practical systems, prompt design and retrieval strategy help use that context budget effectively.
+
+Retrieval-Augmented Generation, or RAG, combines retrieval with generation so answers stay grounded in external information. A typical RAG pipeline includes document ingestion, chunking, embedding generation, indexing, retrieval, prompt construction, and answer generation. Dense retrieval compares embeddings semantically, while sparse methods rely more on lexical overlap.
+
+Chunking strategy is central to RAG quality. Chunks that are too large can mix unrelated topics, while chunks that are too small may lose the context needed to answer a question. Fixed-size chunking, semantic chunking, and hierarchical chunking are common approaches. Overlap between chunks often improves recall.
+
+Advanced RAG systems may use reranking, query rewriting, query expansion, HyDE, iterative retrieval, or multi-hop retrieval. Vector databases store embeddings and support fast nearest-neighbor search. FAISS is a popular similarity search library from Meta for dense vector retrieval, and HNSW is a graph-based approximate nearest neighbor method with efficient search behavior.
+
+Hybrid search combines dense semantic retrieval with sparse keyword retrieval such as BM25. This can improve results when exact terms matter as well as semantic meaning. Reciprocal rank fusion is one common strategy for combining dense and sparse rankings.
+
+LangChain is a framework for building LLM applications. It provides abstractions for prompts, models, tools, retrievers, and orchestration. LangChain Expression Language, or LCEL, uses composable runnables and the pipe operator to build chains declaratively.
+
+LangGraph extends LangChain with graph-based orchestration for multi-step, stateful workflows. It is useful for agents, approval loops, and systems that need branching or cycles. LangChain also supports different memory patterns such as conversation buffers, summaries, windows, and vector-store-backed memory.
+
+LangChain retrievers fetch relevant documents for a query from a knowledge source. They often sit on top of vector stores but can also use keyword search or other retrieval methods. A retriever is one of the key building blocks in a RAG pipeline because it decides what evidence reaches the generator.
+
+LangSmith is a platform for tracing, debugging, evaluating, and monitoring LLM applications. Traces can capture user inputs, retrieved context, model outputs, latency, token usage, and errors across each step of a chain. This helps teams debug behavior, compare prompt changes, and monitor production systems.
+
+The LangSmith Prompt Hub is a managed place to store, version, share, and reuse prompt templates. It supports workflows such as A/B testing, collaborative prompt development, and rollback to known-good prompt versions. LangSmith datasets are useful for storing evaluation examples and running experiments repeatedly.
+
+RAGAS is an evaluation framework designed for retrieval-augmented generation. Faithfulness checks whether answer claims are supported by the retrieved context. Answer relevancy measures whether the answer actually addresses the user question. Context recall measures whether retrieval covered the information needed, and context precision measures whether the retrieved context stayed focused on relevant material.
+
+Guardrails AI helps teams validate and correct model outputs. It can enforce policies such as format correctness, PII redaction, and safety rules. Personally identifiable information, or PII, includes details like email addresses, phone numbers, social security numbers, and credit card numbers. Detecting and redacting PII is important for privacy, compliance, and user trust.
+
+Structured output validation ensures that generated outputs follow the expected schema, such as valid JSON. Repair strategies might strip markdown code fences, normalize quotes, and remove trailing commas. Constitutional AI is an alignment technique where a model follows a set of principles and uses self-critique to improve outputs. Common safety concerns for LLM systems include hallucination, bias, toxicity, privacy leakage, and jailbreak attempts.
